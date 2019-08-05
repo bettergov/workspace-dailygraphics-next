@@ -1,0 +1,9 @@
+[submodule "dailygraphics-next"]
+	path = dailygraphics-next
+	url = https://github.com/nprapps/dailygraphics-next
+[submodule "dailygraphics-templates"]
+	path = dailygraphics-templates
+	url = https://github.com/nprapps/dailygraphics-templates
+[submodule "graphics-js"]
+	path = graphics-js
+	url = https://github.com/bettergov/graphics-bga.git
