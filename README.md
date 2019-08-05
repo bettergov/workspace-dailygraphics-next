@@ -1,5 +1,5 @@
-# dailygraphics-workspace
-Packaging [nprapps/dailygraphics-next](https://github.com/nprapps/dailygraphics-next) into a single package.
+# workspace-dailygraphics-next
+Packing all of [nprapps/dailygraphics-next](https://github.com/nprapps/dailygraphics-next) into a single package.
 
 ## Dependencies
 This repo uses the workspaces feature of Yarn. Make sure you have [Yarn installed](https://yarnpkg.com/en/docs/install) and [read more about workspaces](https://yarnpkg.com/lang/en/docs/workspaces/). 
