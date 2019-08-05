@@ -8,9 +8,6 @@ This repo also uses git submodules. This is a helpful explanation of [how git su
 
 ## Quickstart
 ```bash
-git clone https://github.com/bettergov/dailygraphics-workspace.git
-# [ ] check or fill out .gitmodules
-# [ ] check or fill out config.json
 yarn install
 # [ ] fill out .env
 yarn start:iterm
