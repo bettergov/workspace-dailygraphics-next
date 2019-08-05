@@ -15,6 +15,8 @@ Once you've done that:
 
 1. Clone this repo.
 
+2. Configure `.gitmodules` with your own information.
+
 2. Configure `./config.json` with your own information. It will copy directly to the rig.
 
 3. Run `yarn install` to install its dependencies and initialize the submodules.
