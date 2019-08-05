@@ -1,0 +1,10 @@
+{
+  "graphicsPath": "../graphics-js",
+  "templatePath": "../dailygraphics-templates",
+  "driveFolder": "1l5_V75S92mxwVrUaTE-CQ1KTFO7v5rMA",
+  "s3": {
+    "bucket": "graphics.bettergov.org",
+    "prefix": "dailygraphics"
+  },
+  "analyticsID": "UA-18960172-5"
+}
