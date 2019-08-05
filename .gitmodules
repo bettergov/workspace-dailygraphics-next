@@ -6,4 +6,4 @@
 	url = https://github.com/nprapps/dailygraphics-templates
 [submodule "graphics-js"]
 	path = graphics-js
-	url = https://github.com/bettergov/graphics-bga.git
+	url = https://github.com/bettergov/graphics-js.git
