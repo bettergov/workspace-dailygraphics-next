@@ -1,6 +1,6 @@
 # workspace-dailygraphics-next
 
-Packing all of [nprapps/dailygraphics-next](https://github.com/nprapps/dailygraphics-next) into a single package.
+Packing all of the setup for [nprapps/dailygraphics-next](https://github.com/nprapps/dailygraphics-next) into a single repo.
 
 ## Dependencies
 
