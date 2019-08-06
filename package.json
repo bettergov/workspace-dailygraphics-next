@@ -8,6 +8,7 @@
   "scripts": {
     "start:iterm": "osascript ./iterm_dgnext.scpt",
     "install:submodule": "git submodule init && git submodule update",
+    "install:packages": "yarn install --ignore-scripts",
     "install:config": "cp -n config.json dailygraphics-next/config.json || true",
     "install:env": "cp -n .env.example .env || true",
     "install": "run-s install:**"

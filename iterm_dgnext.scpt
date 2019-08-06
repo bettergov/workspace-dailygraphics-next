@@ -19,7 +19,6 @@ tell application "iTerm"
 			write text "git checkout master"
 			write text "git pull"
 			write text "source ../.env"
-			write text "yarn install"
 			write text "yarn start"
 		end tell
 		tell graphics
@@ -29,7 +28,6 @@ tell application "iTerm"
 			write text "cd ./graphics-js/"
 			write text "git checkout master"
 			write text "git pull"
-			write text "yarn install"
 		end tell
 	end tell
 end tell
