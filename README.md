@@ -48,14 +48,15 @@ Once you've done that:
       ```bash
       # templates
       cd ./dailygraphics-templates/
+      git checkout master
       git pull
       ```
       
       ```bash
       # webserver
       cd ./dailygraphics-next/
+      git checkout master
       git pull
-      yarn install
       source ../.env
       yarn start
       ```
@@ -63,8 +64,8 @@ Once you've done that:
       ```bash
       # graphics
       cd ./graphics-js/
+      git checkout master
       git pull
-      yarn install
       ```
 
 ## Getting started (even more detailed)
