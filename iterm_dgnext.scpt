@@ -6,8 +6,6 @@ tell application "iTerm"
 			set webserver to (split vertically with default profile)
 			-- CHANGE path to your needs
 			write text "cd ./dailygraphics-templates/"
-			write text "git checkout master"
-			write text "git pull"
 		end tell
 		tell webserver
 			-- webserver pane
@@ -16,8 +14,6 @@ tell application "iTerm"
 			-- CHANGE path to your needs
 			write text "nvm use node"
 			write text "cd ./dailygraphics-next/"
-			write text "git checkout master"
-			write text "git pull"
 			write text "source ../.env"
 			write text "yarn start"
 		end tell
@@ -26,8 +22,6 @@ tell application "iTerm"
 			set name to "graphics-js"
 			-- CHANGE path to your needs
 			write text "cd ./graphics-js/"
-			write text "git checkout master"
-			write text "git pull"
 		end tell
 	end tell
 end tell
