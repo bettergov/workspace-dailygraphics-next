@@ -13,7 +13,7 @@ This repo also uses git submodules. This is a helpful explanation of [how git su
 ```bash
 yarn install
 # [ ] fill out .env
-yarn start:iterm
+yarn start
 ```
 
 ## Making this workspace your own
