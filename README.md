@@ -1,6 +1,6 @@
 # workspace-dailygraphics-next
 
-Packing all of [nprapps/dailygraphics-next](https://github.com/nprapps/dailygraphics-next) into a single package.
+Packing all of the setup for [nprapps/dailygraphics-next](https://github.com/nprapps/dailygraphics-next) into a single repo.
 
 ## Dependencies
 
@@ -16,7 +16,7 @@ yarn install
 yarn start:iterm
 ```
 
-## Getting started (detailed)
+## Making this workspace your own
 
 (A lot of this language is cribbed from [nprapps/dailygraphics-next](https://github.com/nprapps/dailygraphics-next).)
 
@@ -24,15 +24,17 @@ To run this project, you'll need Node 10.0 or higher installed. On OS X and Linu
 
 Once you've done that:
 
-1. Clone this repo.
+1. From GitHub, create a new workspace repo by clicking "Use this template."
 
-2. Configure `.gitmodules` with your own information.
+2. Clone your repo.
 
-3. Configure `./config.json` with your own information. It will copy directly to the rig.
+3. Edit `.gitmodules` with your own information.
 
-4. Run `yarn install` to install its dependencies and initialize the submodules.
+4. Edit `./config.json` with your own information.
 
-5. In the root repo, fill out `.env` with your:
+5. Run `yarn install` to install its dependencies and initialize the submodules.
+
+6. In the root repo, fill out `.env` with your:
 
    - GOOGLE_OAUTH_CLIENT_ID
    - GOOGLE_OAUTH_CONSUMER_SECRET
@@ -45,7 +47,7 @@ Once you've done that:
    - AWS_SECRET_ACCESS_KEY
    - AWS_DEFAULT_REGION
 
-6. Now you need to install the dependencies of the submodules and start the rig.
+7. Start the rig.
 
    - If you're using iterm on OS X, just run `yarn start:iterm`.
    - Otherwise, in three terminal windows:
